@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E0AB10D4281DC197009B38C1 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AB10D3281DC197009B38C1 /* TabBarController.swift */; };
+		E0DBE685281DC3870020948B /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DBE684281DC3870020948B /* ContactsViewController.swift */; };
+		E0DBE687281DC3D10020948B /* RecentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DBE686281DC3D10020948B /* RecentViewController.swift */; };
 		E0F11D3A281A099D0033D75C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F11D39281A099D0033D75C /* AppDelegate.swift */; };
 		E0F11D3C281A099D0033D75C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F11D3B281A099D0033D75C /* SceneDelegate.swift */; };
-		E0F11D3E281A099D0033D75C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F11D3D281A099D0033D75C /* ViewController.swift */; };
 		E0F11D44281A099D0033D75C /* Contacts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E0F11D42281A099D0033D75C /* Contacts.xcdatamodeld */; };
 		E0F11D46281A099E0033D75C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0F11D45281A099E0033D75C /* Assets.xcassets */; };
 		E0F11D49281A099E0033D75C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0F11D47281A099E0033D75C /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E0AB10D3281DC197009B38C1 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		E0DBE684281DC3870020948B /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		E0DBE686281DC3D10020948B /* RecentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentViewController.swift; sourceTree = "<group>"; };
 		E0F11D36281A099D0033D75C /* Contacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0F11D39281A099D0033D75C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0F11D3B281A099D0033D75C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E0F11D3D281A099D0033D75C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E0F11D43281A099D0033D75C /* Contacts.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Contacts.xcdatamodel; sourceTree = "<group>"; };
 		E0F11D45281A099E0033D75C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0F11D48281A099E0033D75C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,9 +60,11 @@
 		E0F11D38281A099D0033D75C /* Contacts */ = {
 			isa = PBXGroup;
 			children = (
+				E0AB10D3281DC197009B38C1 /* TabBarController.swift */,
+				E0DBE684281DC3870020948B /* ContactsViewController.swift */,
+				E0DBE686281DC3D10020948B /* RecentViewController.swift */,
 				E0F11D39281A099D0033D75C /* AppDelegate.swift */,
 				E0F11D3B281A099D0033D75C /* SceneDelegate.swift */,
-				E0F11D3D281A099D0033D75C /* ViewController.swift */,
 				E0F11D45281A099E0033D75C /* Assets.xcassets */,
 				E0F11D47281A099E0033D75C /* LaunchScreen.storyboard */,
 				E0F11D4A281A099E0033D75C /* Info.plist */,
@@ -138,9 +144,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0F11D44281A099D0033D75C /* Contacts.xcdatamodeld in Sources */,
-				E0F11D3E281A099D0033D75C /* ViewController.swift in Sources */,
+				E0DBE687281DC3D10020948B /* RecentViewController.swift in Sources */,
 				E0F11D3A281A099D0033D75C /* AppDelegate.swift in Sources */,
+				E0AB10D4281DC197009B38C1 /* TabBarController.swift in Sources */,
 				E0F11D3C281A099D0033D75C /* SceneDelegate.swift in Sources */,
+				E0DBE685281DC3870020948B /* ContactsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
